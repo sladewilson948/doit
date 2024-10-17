@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+
+.heading
+{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: #504a45;
+    font-size: 50px;
+    align-items: center;
+}
+
+.container
+{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: #504a45;
+    align-items: center;
+    justify-content: center;
+}
+
+#count
+{
+    
+    
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+}
+
+.counter
+{
+
+    margin-top: 2px;
+    border: 8px solid black;
+    border-radius: 6px;
+    flex-direction: row;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+
+.main
+{   
+    margin-top: 60px;
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#done
+{
+    font-size: 17px;
+    width: 120px;
+}
+
+button
+{
+    
+    font-size: 30px;
+    width: 80px;
+    background-color: rgb(138, 138, 115);
+    cursor: pointer;
+    border: 3px solid black;
+    height: 50px;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+
